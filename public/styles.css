@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(139, 139, 139, 0.75);
+    margin: 30px auto;
+    width: 700px;
+    height: 730px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#messages {
+    overflow: scroll;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 1px auto;
+    width: 700px;
+    height: 450px;
+    background: #e3e3e3;
+}
+
+#btns {
+    display: inline-block;
+    width: 700px;
+    height: 50px;
+    margin: 1px auto;
+}
+
+input[type=text],
+select {
+    margin-bottom: 5px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    margin-top: 5px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    width: 100%;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input:hover[type=submit] {
+    margin-top: 5px;
+    background-color: rgb(100, 200, 104);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    width: 100%;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=file] {
+    border: none;
+    color: white;
+    width: 90%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#taker {
+    margin-top: 20px;
+    color: #ccc;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#reciver {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+strong,
+em {
+    position: relative;
+    color: #ccc;
+    font-family: 'Quicksand', sans-serif;
+}
